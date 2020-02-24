@@ -27,6 +27,7 @@ public class UserAction extends ActionSupport {
 
     public String queryAllUser(){
         System.out.println("这是githup传上去的");
+//wewewqe
         System.out.println("++++++++++");
         //调用业务
         UserServiceImpl userService = new UserServiceImpl();
