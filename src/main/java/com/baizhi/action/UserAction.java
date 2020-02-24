@@ -13,6 +13,7 @@ import java.io.PrintWriter;
 import java.util.List;
 
 public class UserAction extends ActionSupport {
+    
     //接收用户名
     private String username;
 
@@ -25,6 +26,7 @@ public class UserAction extends ActionSupport {
     }
 
     public String queryAllUser(){
+        System.out.println("这是githup传上去的");
         System.out.println("++++++++++");
         //调用业务
         UserServiceImpl userService = new UserServiceImpl();
